@@ -1,0 +1,53 @@
+YÜKSELİŞ: telefona kurulum rehberi
+====================================
+
+Bu klasör, internete yüklendiğinde telefonuna uygulama gibi kurulan bir pakettir.
+Telefonda uygulama simgesiyle açılır, tam ekran çalışır ve internet olmadan da çalışır.
+
+Neden internete yüklemek gerekiyor?
+Telefonlar, bilgisayardan atılan bir dosyayı uygulama olarak kurmaz. Uygulama gibi
+kurulması için dosyaların bir web adresinde (https) durması gerekir. Aşağıdaki
+yöntem ücretsizdir ve 10 dakikada biter.
+
+YÖNTEM 1: GitHub Pages (kalıcı, ücretsiz)
+1. github.com'da ücretsiz bir hesap aç ve giriş yap.
+2. Sağ üstteki "+" simgesine bas, "New repository" seç. Adı "yukselis" olsun.
+   "Public" seçili kalsın, "Create repository" de.
+3. Açılan sayfada "uploading an existing file" bağlantısına bas.
+4. Bu klasörün İÇİNDEKİ dosyaların hepsini sürükleyip bırak
+   (index.html, manifest.webmanifest, sw.js ve üç tane .png dosyası).
+   Klasörün kendisini değil, içindeki dosyaları yükle.
+5. "Commit changes" de.
+6. Repository'nin "Settings" sekmesine gir, soldan "Pages"i seç.
+   "Branch" olarak "main" ve "/ (root)" seç, "Save" de.
+7. 1-2 dakika sonra sayfanın üstünde adresin görünür:
+   https://KULLANICI-ADIN.github.io/yukselis/
+
+YÖNTEM 2: Netlify Drop (en hızlısı)
+1. app.netlify.com/drop adresini aç.
+2. Bu klasörü sürükleyip bırak. Sana bir adres verir.
+3. Siteyi kalıcı tutmak için Netlify'da hesap açıp siteyi hesabına bağlaman gerekebilir.
+
+TELEFONA KURMA
+iPhone: Adresi Safari'de aç. Alttaki paylaş simgesine bas, "Ana Ekrana Ekle"yi seç.
+        Kurduktan sonra uygulamayı ana ekrandaki simgesinden aç.
+Android: Adresi Chrome'da aç. Sağ üstteki üç noktaya bas, "Uygulamayı yükle" ya da
+         "Ana ekrana ekle"yi seç.
+
+ÖNEMLİ NOTLAR
+- Veriler yalnızca telefonda saklanır, başka cihazla eşleşmez.
+- Önce uygulamayı ana ekrana ekle, sonra kullan. iPhone'da Safari'de girdiğin veriler
+  ana ekrandaki uygulamaya aktarılmaz, ikisi ayrı saklanır.
+- Uygulamanın içindeki Hafta sekmesinde "Yedeği indir" ve "Yedeği yükle" düğmeleri var.
+  Telefonu değiştirmeden ya da uygulamayı silmeden önce yedek al.
+- Public bir GitHub deposunda dosyaları herkes görebilir. Dosyalarda yalnızca plan
+  içeriği var, kişisel veri yok. İstersen depoyu "Private" yapıp yine Pages kullanabilirsin
+  (ücretli plan gerekebilir) ya da Netlify'ı seç.
+- ANIMSATICI: Defter > Anımsatıcı sekmesinden aç. Uygulama açıkken saati gelen maddeler
+  için uyarı çıkar. iPhone'da sistem bildirimi için uygulamayı Ana Ekrana ekleyip oradan aç.
+  Uygulama kapalıyken çalan KESİN alarm için aynı sekmedeki "Takvim dosyasını indir"
+  düğmesini kullan. Dosyayı açınca takvime ekle. Ayda bir yenile.
+- GÖRSELLER: Defter > Görseller ve Öğrendiklerim bölümlerinde fotoğraf çekebilir ya da
+  galeriden seçebilirsin. Fotoğraflar küçültülüp telefonda saklanır, yedeğe dahildir.
+- Adres değişirse ya da güncelleme yaparsan, ana ekrandaki uygulama bir sonraki açılışta
+  yeni sürümü indirir.
